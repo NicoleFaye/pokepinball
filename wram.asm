@@ -310,7 +310,7 @@ wd4c7:: ; 0xd4c7
 	ds $1
 
 wBallSize:: ; 0xd4c8
-; Set to 0 for default, set to 1 for mini, set to 2 for super mini
+; set to 0 for default, 1 for mini, 2 for super mini
 	ds $1
 
 wLostBall:: ; 0xd4c9
