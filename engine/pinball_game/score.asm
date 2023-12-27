@@ -178,7 +178,7 @@ Func_85c7: ; 0x85c7
 	daa
 	ld [de], a
 	ld [hl], $0
-	call c, SetMaxScore
+	call c, SetMaxScore #no op this to enable overflow
 	inc de
 	inc hl
 	ld a, l
